@@ -2,14 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-<<<<<<< HEAD
     <UserSecretsId>981660af-252c-4f79-b8cf-3d79d1096fd6</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-=======
-    <PackageId>AWSproject</PackageId>
-    <Version>1.0.0</Version>
-    <IsPackable>true</IsPackable>
->>>>>>> a8deff5ca685d281d2b285d7012976a62ffacd56
   </PropertyGroup>
 
   <ItemGroup>
