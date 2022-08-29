@@ -8,7 +8,7 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY ["AWSproject/AWSproject.csproj", "AWSproject/"]
-RUN dotnet restore "AWSproject/AWSproject.csproj"
+#RUN dotnet restore "AWSproject/AWSproject.csproj"
 COPY . .
 WORKDIR "/src/AWSproject"
 RUN dotnet build "AWSproject.csproj" -c Release -o /app/build
